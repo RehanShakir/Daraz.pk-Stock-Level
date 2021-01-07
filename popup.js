@@ -4,12 +4,12 @@ chrome.runtime.onMessage.addListener(function (message) {
 	//var stk = message.slice();
  if(message[0] === "stock"){
 	if (document.getElementById('pagetitle')) {
-		document.getElementById('pagetitle').innerHTML = message[1];
+		document.getElementById('pagetitle').innerHTML = message[1][1];
 	}
 }
  if(message[2] === "rating"){
 	if (document.getElementById('pagetitle1')) {
-		document.getElementById('pagetitle1').innerHTML = message[3];
+		document.getElementById('pagetitle1').innerHTML = message[3][1];
 	}
 }
 });
