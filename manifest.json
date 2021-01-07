@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+
+	"name": "Daraz.pk Stock Level",
+	"description": "Find out stock level of a Product being sold over Daraz.pk",
+	"version": "1.0",
+	"author": "https://nafran.com/",
+
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+        "activeTab",
+        "http://www.daraz.pk//products/*",
+        "https://www.daraz.pk//products/*"
+    ],
+    "content_scripts": [
+    {
+      "matches": ["*://*.daraz.pk//products/*"],
+      "js": ["popup.js"]
+    }],
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	}
+}
