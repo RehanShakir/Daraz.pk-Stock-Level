@@ -3,11 +3,11 @@ This is an efficient extension(for Chrome, Microsoft Edge, Firefox, etc) for ret
 
 Originally Created By https://nafran.com/.
 
-# What I have added?
+## What I have added?
 I have added the review count. 
 
 # How to install?
-##Step 1:
+## Step 1:
 Download the source code
 
 ## Step 2:
