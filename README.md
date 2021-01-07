@@ -3,17 +3,17 @@ This is an efficient extension(for Chrome, Microsoft Edge, Firefox, etc) for ret
 
 Originally Created By https://nafran.com/.
 
-#What I have added?
+# What I have added?
 I have added the review count. 
 
-#How to install?
+# How to install?
 ##Step 1:
 Download the source code
 
-##Step 2:
+## Step 2:
 Open your browser and goto manage extensions
 
-##Step 3:
+## Step 3:
 Click on "Load Unpacked" and select source code folder.
 
 
