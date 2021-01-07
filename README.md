@@ -14,7 +14,7 @@ Download the source code
 Open your browser and goto manage extensions
 
 ### Step 3:
-Click on "Load Unpacked" and select source code folder.
+Click on "Load Unpacked" and select the source code folder.
 
 
 
